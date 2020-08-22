@@ -1,2 +1,3 @@
 # Shortfolio
-A website in progress, stay tuned!!
+A website design for a short and crisp portfolio and working description.<br>
+Work in progress, stay tuned!!
