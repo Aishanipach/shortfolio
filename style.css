@@ -15,7 +15,7 @@ body {
   }
   
   .sidenav a {
-    padding: 6px 8px 16px 6px;
+    padding: 6px 8px 3px 8px;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
@@ -32,7 +32,14 @@ body {
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
-  
+  /*#categories .col-lg-4 {
+    width: fit-content;
+    display: inline-grid;
+    flex-wrap: wrap;
+    padding: 0 4px;
+   
+    grid-gap: 10px;
+  }*/
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
