@@ -10,11 +10,33 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-image: #111;
+    background-color: rgba(20, 19, 19, 0.37);
     overflow-x: hidden;
     padding-top: 20px;
   }
   
+  .bg-img {
+    /* The image used */
+    background-image: url("img/bg.jpg");
+  
+    min-height: 700px;
+    min-width: 1509px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  .home
+  {
+    color: rgb(250, 248, 248);
+    font-family: 'Chakra Petch';
+   
+     text-align:right;
+     
+  }
   .sidenav a {
     padding: 6px 8px 3px 8px;
     text-align: center;
@@ -24,7 +46,7 @@ body {
     color: #818181;
     display: block;
   }
-  
+
   .sidenav a:hover {
     color: #f1f1f1;
     text-decoration-color: antiquewhite;
@@ -32,18 +54,13 @@ body {
   }
   
   .main {
-    margin-left: 300px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin-left: 300px; 
+  /* Same as the width of the sidenav */
+    
     padding: 0px 10px;
+    margin-top: 4%;
   }
-  /*#categories .col-lg-4 {
-    width: fit-content;
-    display: inline-grid;
-    flex-wrap: wrap;
-    padding: 0 4px;
-   
-    grid-gap: 10px;
-  }*/
+
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
