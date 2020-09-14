@@ -58,6 +58,88 @@ body {
     
     color: white;
   }
+
+  /* Project Section*/
+  #gallery {
+    padding: 60px 0;
+  }
+  
+  #gallery .container-fluid {
+    margin-bottom: 3px;
+  }
+  
+  #gallery .col-lg-6  {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+  
+  }
+  #gallery .img-fluid {
+    margin-top: 0px;
+    vertical-align: auto;
+    padding: 0 0px;
+  }
+  #gallery .col-lg-3
+  {
+    
+      width: fit-content;
+      display: inline-grid;
+      flex-wrap: wrap;
+      padding: 0 4px;
+      
+      grid-gap: 10px;
+    
+  }
+  
+  #gallery .gallery-info {
+    background: url("img/Projects/proj6.jpg") top center no-repeat;
+    background-size: cover;
+    font-family: Alegreya Sans;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  #gallery .gallery-info:before {
+    content: "";
+    background: rgba(12, 12, 12, 0.8);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #gallery .gallery-info h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  #gallery .gallery-info p {
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  #gallery .gallery-gallery-container {
+    padding-right: 12px;
+  }
+  
+  #gallery .gallery-gallery {
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+  }
+  
+  #gallery .gallery-gallery img {
+    transition: all ease-in-out 0.4s;
+  }
+  
+  #gallery .gallery-gallery:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
   
   
 
@@ -106,7 +188,7 @@ body {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    font-family:'Alegreya Sans' ;
+    font-family:'Montserrat' ;
   }
   #myBtn:hover {
     background-color: rgb(7, 6, 6);
