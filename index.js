@@ -17,3 +17,12 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+$(document).ready(function() {
+/* About me slider */
+$('.about-me-slider').slick({
+  slidesToShow: 1,
+  prevArrow: '<span class="span-arrow slick-prev"><</span>',
+  nextArrow: '<span class="span-arrow slick-next">></span>'
+});
+
+});
