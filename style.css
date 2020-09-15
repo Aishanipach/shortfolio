@@ -242,4 +242,166 @@ body {
     padding: 2px 16px;
     color: white;
   }
+
  
+  .fh5co-about-me {
+    position: relative;
+    margin: 23px 0 23px; }
+    @media (max-width: 250px) {
+      .fh5co-about-me {
+        margin: 150px 0; } }
+    @media (max-width: 92px) {
+      .fh5co-about-me {
+        margin: 125px 0; } }
+/*  
+  .about-me-bckg {
+    position: absolute;
+    background-image: url("img/bg-blog.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    top: -75px;
+    right: 0;
+   
+    width: 70%;
+    z-index: -1; }
+    .about-me-bckg:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      opacity: 0.7; }
+    @media (max-width: 992px) {
+      .about-me-bckg {
+        width: 100%;
+        padding-bottom: 15px; } }
+  */
+  .about-me-inner {
+    display: flex;
+    justify-content: space-between; }
+    @media (max-width: 92px) {
+      .about-me-inner {
+        flex-direction: column;
+        align-items: center; } }
+  
+  .about-me-slider {
+    position: relative; }
+    .about-me-slider .slick-arrow {
+      position: absolute;
+      bottom: -18%; }
+    .about-me-slider .slick-prev {
+      left: 40%; }
+      @media (max-width: 520px) {
+        .about-me-slider .slick-prev {
+          left: 34%; } }
+    .about-me-slider .slick-next {
+      right: 40%; }
+      @media (max-width: 520px) {
+        .about-me-slider .slick-next {
+          right: 34%; } }
+  
+  .span-arrow {
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #a7a4a2;
+    border: 1px solid #a7a4a2;
+    border-radius: 50%;
+    transition: 0.3s ease; }
+    .span-arrow:hover {
+      color: #fff;
+      border-color: #fff; }
+  
+  .portfolio-wrapper {
+    width: 400px;
+    height: 700 px;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(170, 162, 162, 0.664); }
+    .portfolio-wrapper .portfolio__img {
+      font-size: 0; }
+      .portfolio-wrapper .portfolio__img img {
+        width: 100%; }
+    .portfolio-wrapper .portfolio__bottom {
+      padding: 35px 0 5px;
+      background-color: #ffffff; }
+      @media (max-width: 992px) {
+        .portfolio-wrapper .portfolio__bottom {
+          padding: 25px 0; } }
+    .portfolio-wrapper .portfolio__name {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-bottom: 23px; }
+      @media (max-width: 992px) {
+        .portfolio-wrapper .portfolio__name {
+          margin-bottom: 10px; } }
+      .portfolio-wrapper .portfolio__name span {
+        font-size: 90px;
+        line-height: 75px;
+        color: #79736e;
+        font-family: 'Alegreya Sans' }
+        @media (max-width: 992px) {
+          .portfolio-wrapper .portfolio__name span {
+            font-size: 65px;
+            line-height: 62px;
+            } }
+    .portfolio-wrapper p {
+      padding: 0 10%;
+      line-height: 25px;
+      font-style: italic;
+      color: #777; }
+      @media (max-width: 620px) {
+        .portfolio-wrapper p {
+          font-size: 15px;
+          line-height: 20px; } }
+    @media (max-width: 992px) {
+      .portfolio-wrapper {
+        margin-bottom: 20px; } }
+    @media (max-width: 620px) {
+      .portfolio-wrapper {
+        width: 250px; } }
+  
+  .about-me__text {
+    width: 44%;
+    margin-right: 80px;
+    text-align: center; }
+    .about-me__text .universal-h2 {
+      color: #fff;
+      padding-bottom: 20px;
+      margin-bottom: 25px;
+      font-family: 'Montserrat';;
+      font-size: 40px; }
+    .about-me__text p {
+      margin-bottom: 35px;
+      line-height: 24px;
+      color: #ffffff;
+      font-family: 'Montserrat'; }
+      .about-me__text p span {
+        font-size: 48px;
+        color: #fff; }
+      @media (max-width: 620px) {
+        .about-me__text p {
+          margin-bottom: 20px;
+          font-size: 14px;
+          line-height: 19px; } }
+    .about-me__text h4 {
+      margin-bottom: 7px;
+      font-size: 25px;
+      font-family: 'Alegreya Sans';
+      color: white; }
+    
+    @media (max-width: 1250px) {
+      .about-me__text {
+        width: 48%;
+        margin-right: 40px; } }
+    @media (max-width: 992px) {
+      .about-me__text {
+        width: 100%;
+        margin-right: 0; } }
+        
+        .slick-slide:focus {
+          outline: none; }  
