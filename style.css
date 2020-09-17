@@ -237,6 +237,7 @@ body {
     background-color: black;
     color: white;
     transform: rotateY(180deg);
+    font-family: 'Montserrat';
   }
   .container {
     padding: 2px 16px;
