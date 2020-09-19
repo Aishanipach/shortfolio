@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: "Lato", sans-serif;
    /* background-image: url("https://media.giphy.com/media/pWhWtKdqwOAco/giphy.gif");*/
@@ -242,6 +246,7 @@ body {
   .container {
     padding: 2px 16px;
     color: white;
+    font-family: 'Montserrat';
   }
 
  
@@ -295,6 +300,7 @@ body {
     height: 700 px;
     padding: 8px;
     text-align: center;
+    font-family: 'Alegreya Sans';
     background-color: rgba(170, 162, 162, 0.664); }
     .portfolio-wrapper .portfolio__img {
       font-size: 0; }
@@ -323,12 +329,14 @@ body {
           .portfolio-wrapper .portfolio__name span {
             font-size: 65px;
             line-height: 62px;
+            font-family: 'Alegreya Sans' 
             } }
     .portfolio-wrapper p {
       padding: 0 10%;
       line-height: 25px;
       font-style: italic;
-      color: #777; }
+      color: #777;
+      font-family: 'Alegreya Sans'  }
       @media (max-width: 620px) {
         .portfolio-wrapper p {
           font-size: 15px;
