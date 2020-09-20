@@ -8,6 +8,7 @@ Template for you to maintain your projects in a <b>short portfolio</b> with a <b
 
 ## How To Use?
 
-1. Click on Use this Template
+-  ### Click on Use this Template
 ![Image](https://github.com/Aishanipach/shortfolio/blob/master/Usethis.PNG)
 
+-  ### Contribute!
