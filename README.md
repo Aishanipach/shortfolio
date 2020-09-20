@@ -6,3 +6,5 @@ Template for you to maintain your projects in a short portfolio + blog display .
 ## Check it out:
 [Click here!](https://aishanipach.github.io/shortfolio/)
 
+## How To Use?
+
