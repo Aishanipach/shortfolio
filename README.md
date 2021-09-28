@@ -1,6 +1,6 @@
 # Shortfolio
 
-<h2>Something new coming up </h2>
+<h2> \\Something new coming up// </h2>
 
  ![GitHub](https://img.shields.io/github/license/imfunniee/fimbo.svg?style=popout-square) 
 
