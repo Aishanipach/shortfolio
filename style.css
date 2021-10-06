@@ -1,63 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
 
-body {
-    font-family: "Lato", sans-serif;
-   
-  }
+
+.h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color:rgb(250, 248, 248)
+}
   
+
   .sidenav {
     height: 100%;
-    width: 300px;
+    width: 190px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(20, 19, 19, 0.37);
+    background-color: rgb(15, 15, 15);
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 50px;
   }
   
-  .bg-img {
-    /* The image used */
-    background-image: url("img/bg.jpg");
+  .content{
+    font-size: 20px;
+  }
+
   
-    min-height: 700px;
-    min-width: 1509px;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    /* Needed to position the navbar */
-    position: relative;
+  .h1{
+
+    color: aliceblue;
+   
+    text-align: left;
+    
+    margin-left: 20px;
   }
   .home
   {
     color: rgb(250, 248, 248);
-    font-family: 'Montserrat';
+    
    
      text-align:right;
      
   }
   
   .fa {
-    padding: 20px;
+    padding: 21px 5px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
   }
   
-  /* Add a hover effect if you want */
+  /* Add a hover effect if you want 
   .fa:hover {
-    color: rgb(146, 141, 141);
+    color: rgb(240, 223, 223);
   }
-  
- 
-  
- 
+  */
+  .fa:hover
+  {
+    color: rgb(201, 201, 201);
+  }
   .fa {
     
     color: white;
@@ -72,10 +76,13 @@ body {
     margin-bottom: 3px;
   }
   
-  #gallery .col-lg-6  {
-    width: 100%;
-    height: 100%;
-    min-height: 300px;
+  #gallery .col-sm-4  {
+    width: fit-content;
+    display: inline-grid;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+    grid-gap: 10px;
   
   }
   #gallery .img-fluid {
@@ -83,17 +90,7 @@ body {
     vertical-align: auto;
     padding: 0 0px;
   }
-  #gallery .col-lg-3
-  {
-    
-      width: fit-content;
-      display: inline-grid;
-      flex-wrap: wrap;
-      padding: 0 4px;
-      
-      grid-gap: 10px;
-    
-  }
+ 
   
   #gallery .gallery-info {
     background: url("img/Projects/proj6.jpg") top center no-repeat;
@@ -144,25 +141,21 @@ body {
     transform: scale(1.1);
   }
   
-  
-  
-
-
-
-  .list-group a {
-    padding: 6px 8px 3px 8px;
-    text-align: center;
+    .list-group a {
+    padding: 6px 8px 3px 48px;
+    text-align: left;
     text-decoration: none;
    
-    font-size: 25px;
-    color: #818181;
+    font-size: 20px;
+    color: #f3f3f3;
     display: block;
   }
 
   .list-group a:hover {
-    color: white;
-    text-decoration-color: antiquewhite;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(109, 107, 107, 0.19);
+    color: rgb(190, 190, 190);
+    font-size: 25px;
+    /*text-decoration-color: antiquewhite;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(109, 107, 107, 0.19);*/
   }
   
   .main {
@@ -192,18 +185,33 @@ body {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    font-family:'Montserrat' ;
+    
   }
   #myBtn:hover {
     background-color: rgb(7, 6, 6);
     color: rgb(165, 164, 158);
+    
+  }
+
+  @media (min-width: 768px){
+.col-md-2 {
+  max-width:30%;
+}
   }
   .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 400px;
-    border: 1px solid #f1f1f1;
+    width: 230px; 
+    height: 300px; 
+    margin-right: 10px;
+    border: 1px solid #f1f1f169;
+    border-radius: 10px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  .image{
+    border-radius: 10px;
+    width: 230px; 
+    height: 300px; 
+    margin-top: 0px;
   }
   
   /* This container is needed to position the front and back side */
@@ -211,6 +219,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
+    
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -226,6 +235,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+    
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
@@ -234,19 +244,21 @@ body {
   .flip-card-front {
     background-color: #bbb;
     color: black;
+    
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     color: white;
+    
     transform: rotateY(180deg);
-    font-family: 'Montserrat';
+   
   }
   .container {
     padding: 2px 16px;
     color: white;
-    font-family: 'Montserrat';
+    
   }
 
  
@@ -300,7 +312,7 @@ body {
     height: 700 px;
     padding: 8px;
     text-align: center;
-    font-family: 'Alegreya Sans';
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: rgba(170, 162, 162, 0.664); }
     .portfolio-wrapper .portfolio__img {
       font-size: 0; }
@@ -329,14 +341,14 @@ body {
           .portfolio-wrapper .portfolio__name span {
             font-size: 65px;
             line-height: 62px;
-            font-family: 'Alegreya Sans' 
+            font-family: 'Source Sans Pro', sans-serif;
             } }
     .portfolio-wrapper p {
       padding: 0 10%;
       line-height: 25px;
       font-style: italic;
       color: #777;
-      font-family: 'Alegreya Sans'  }
+      font-family: 'Source Sans Pro', sans-serif; }
       @media (max-width: 620px) {
         .portfolio-wrapper p {
           font-size: 15px;
@@ -356,13 +368,13 @@ body {
       color: #fff;
       padding-bottom: 20px;
       margin-bottom: 25px;
-      font-family: 'Montserrat';;
+      font-family: 'Source Sans Pro', sans-serif;
       font-size: 40px; }
     .about-me__text p {
       margin-bottom: 35px;
       line-height: 24px;
       color: #ffffff;
-      font-family: 'Montserrat'; }
+      font-family: 'Source Sans Pro', sans-serif; }
       .about-me__text p span {
         font-size: 48px;
         color: #fff; }
@@ -374,7 +386,7 @@ body {
     .about-me__text h4 {
       margin-bottom: 7px;
       font-size: 25px;
-      font-family: 'Alegreya Sans';
+      font-family: 'Source Sans Pro', sans-serif;;
       color: white; }
     
     @media (max-width: 1250px) {
